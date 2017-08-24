@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:text="Payment Mode"
+        />
+
+    <Spinner
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paymentMode">
+
+    </Spinner>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter IFSC Number"
+        android:layout_marginTop="12dp"
+        android:padding="15dp"
+        android:id="@+id/ifscNumber"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Cheque Number"
+        android:layout_marginTop="12dp"
+        android:id="@+id/chequeNumber"
+        android:inputType="number"
+        />
+
+    <Button
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/SubmitButton"
+        android:text="Submit Order"/>
+
+
+
+
+</LinearLayout>

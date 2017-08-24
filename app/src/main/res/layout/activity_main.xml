@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wagh.fttx.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!--<TextView
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FTTx"
+        />-->
+
+
+    <EditText
+        android:id="@+id/buildingID"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Building ID"
+        android:layout_marginBottom="10dp"/>
+
+
+    <EditText
+        android:id="@+id/pincode"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pincode"/>
+
+
+    <EditText
+        android:id="@+id/state"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter State"/>
+
+
+
+    <EditText
+        android:id="@+id/district"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter District"/>
+
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City"/>
+
+
+    <EditText
+        android:id="@+id/locality"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Locality"/>
+
+
+    <EditText
+        android:id="@+id/buildingname"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Building Name"/>
+
+
+    <EditText
+        android:id="@+id/flatno"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Flat No"/>
+
+
+    <Button
+        android:id="@+id/checkServiceFeasibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Service Feasibility"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
